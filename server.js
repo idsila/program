@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const cors = require('cors');
 const app = express();
 
-app.use(expess.json())
+app.use(express.json())
 app.use(cors({methods:['GET', 'POST']}));
 
 app.get('/sleep', (req,res) =>{
